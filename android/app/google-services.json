@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "695303551022",
+    "project_id": "nhomba-project-flutter",
+    "storage_bucket": "nhomba-project-flutter.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695303551022:android:ad4dc612f73a210c7d47bf",
+        "android_client_info": {
+          "package_name": "com.example.nhomba_project_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3KJ8833aVKz_0UuJQAlEUhFmNHFaI5pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:695303551022:android:d87be852b6e1250e7d47bf",
+        "android_client_info": {
+          "package_name": "com.nhomba.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3KJ8833aVKz_0UuJQAlEUhFmNHFaI5pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
