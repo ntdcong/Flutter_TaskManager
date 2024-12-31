@@ -21,7 +21,7 @@
 
 1. Sao chép kho lưu trữ:
 ```bash
-git clone https://github.com/yourusername/task-manager-flutter.git
+git clone https://github.com/ntdcong/Flutter_TaskManager.git
 ```
 
 2. Cài đặt các gói phụ thuộc:
@@ -50,7 +50,7 @@ flutter run
   - `models/`: Các lớp dữ liệu
   - `widgets/`: Widget tái sử dụng
 - **assets/**: Tài nguyên tĩnh
-- **android/ & ios/**: Cấu hình nền tảng
+- **android/**: Cấu hình nền tảng
 
 ## Tích hợp Firebase 🔥
 
