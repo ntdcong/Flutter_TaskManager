@@ -1,16 +1,85 @@
-# nhomba_project_flutter
+# Ứng dụng Task Manager Flutter 👜
 
-A new Flutter project.
+Ứng dụng quản lý công việc đơn giản được xây dựng bằng Flutter. Tích hợp xác thực Firebase và lưu trữ dữ liệu thời gian thực.
 
-## Getting Started
+## Tính năng 📜
 
-This project is a starting point for a Flutter application.
+- Xác thực Firebase cho đăng nhập/đăng xuất
+- Tạo, chỉnh sửa và xóa công việc
+- Quản lý trạng thái công việc (Chưa bắt đầu, Đang thực hiện, Hoàn thành)
+- Lọc công việc theo trạng thái
+- Đồng bộ dữ liệu thời gian thực với Firestore
 
-A few resources to get you started if this is your first Flutter project:
+## Cài đặt 🔧
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Yêu cầu hệ thống 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Flutter](https://flutter.dev/docs/get-started/install)
+- [Firebase](https://firebase.google.com/docs/flutter/setup)
+
+### Thiết lập
+
+1. Sao chép kho lưu trữ:
+```bash
+git clone https://github.com/yourusername/task-manager-flutter.git
+```
+
+2. Cài đặt các gói phụ thuộc:
+```bash
+flutter pub get
+```
+
+### Cấu hình Firebase
+
+1. Tạo/chọn dự án trong [Firebase Console](https://console.firebase.google.com/)
+2. Làm theo [Hướng dẫn cài đặt Firebase Flutter](https://firebase.flutter.dev/docs/overview)
+3. Tải file cấu hình:
+   - Android: `android/app/google-services.json`
+
+### Chạy ứng dụng
+
+```bash
+flutter run
+```
+
+## Cấu trúc dự án ⚙
+
+- **lib/**
+  - `main.dart`: Điểm khởi đầu
+  - `screens/`: Các màn hình ứng dụng
+  - `models/`: Các lớp dữ liệu
+  - `widgets/`: Widget tái sử dụng
+- **assets/**: Tài nguyên tĩnh
+- **android/ & ios/**: Cấu hình nền tảng
+
+## Tích hợp Firebase 🔥
+
+- **Authentication**: Đăng nhập/đăng xuất người dùng
+- **Firestore**: Lưu trữ và đồng bộ công việc thời gian thực
+
+## Hướng dẫn sử dụng 🤓
+
+### Đăng nhập
+Nhập thông tin đăng nhập để truy cập màn hình quản lý công việc
+
+### Quản lý công việc
+- Thêm: Nhập công việc và nhấn biểu tượng " + "
+- Sửa: Chọn công việc và nhấn biểu tượng bút chì " ✏ "
+- Xóa: Chọn công việc và nhấn biểu tượng thùng rác " 🗑 "
+- Thay đổi trạng thái: Chuyển đổi giữa Chưa bắt đầu, Đang thực hiện hoặc Hoàn thành " ⋮ "
+
+### Đăng xuất
+Nhấn biểu tượng đăng xuất trên thanh công cụ
+
+## Công nghệ 💻
+
+- Flutter
+- Firebase Authentication
+- Cloud Firestore
+
+## Tính năng tương lai ❓
+
+- Nhắc nhở công việc
+- Cải thiện giao diện người dùng
+- Chức năng tìm kiếm
+- ...
